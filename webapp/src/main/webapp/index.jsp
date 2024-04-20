@@ -4,11 +4,18 @@
     <p>Please fill in this form</p>
     <hr>
     <br>
-    
+    <label for="Name"><b>Email</b></label>
+    <input type="text" placeholder="Enter Name" name="name" id="name" required>
+    <br> 
 
     <label for="email"><b>Email</b></label>
     <input type="text" placeholder="Enter Email" name="email" id="email" required>
     <br>
+   
+    <label for="aadhar"><b>aadhar</b></label>
+    <input type="text" placeholder="Enter Aadhar No." name="Aadhar" id=aadhar" required>
+    <br>
+
 
     <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
